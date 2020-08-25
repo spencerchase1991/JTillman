@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<title>J. Tillman Group, Inc.</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+<link rel="shortcut icon" href="assets/images/Transparent FavIcon.png">
+
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="#home" class="w3-bar-item w3-button">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+            <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+                <i class="fa fa-search"></i>
+            </a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+            <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+            <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+            <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+            <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+            <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+        </div>
+    </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+        <div class="w3-display-middle" style="white-space:nowrap;">
+            <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">J. TILLMAN<span
+                    class="w3-hide-small">GROUP,</span> INC.</span>
+        </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+        <h3 class="w3-center">The J Tillman Difference</h3>
+        <p class="w3-center"><em></em></p>
+        <p> The J Tillman Group is not about building as many houses as possible - we focus on quality and detail not
+            quantity. Our rigorous standards ensure the highest possible results. We are always professional and fair,
+            working endlessly to provide the best value for our clients. All agreements between our company and our
+            clients must be amiable or we won't make them.</p>
+        <p>We stand behind what we build. We will always be forthright, respectful and patient when working with you.
+        </p>
+        <p>We are flexible and can work within your timeline, paying close attention to every detail and communicating
+            as effectively as possible to make sure your requests are met. We will always put your best interests first
+            in every decision we make.</p>
+        <div class="w3-row">
+            <div class="w3-col m6 w3-center w3-padding-large">
+                <img src="./assets/images/theDifference.PNG" class="w3-round w3-image w3-opacity w3-hover-opacity-off"
+                    alt="Photo of Me" width="500" height="333">
+            </div>
+
+            <!-- Hide this text on small devices -->
+            <div class="w3-col m6 w3-hide-small w3-padding-large">
+                <p>Bla Bla Bla! We can add more about the company or remove it. I am lorem ipsum consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+
+        <p class="w3-large w3-center w3-padding-16"></p>
+    </div>
+
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16">
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">12+</span><br>
+            Partners
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">15+</span><br>
+            Projects Done
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">89+</span><br>
+            Happy Clients
+        </div>
+        <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">70+</span><br>
+            Markets
+        </div>
+    </div>
+
+    <!-- Second Parallax Image with Portfolio Text -->
+    <div class="bgimg-2 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+        </div>
+    </div>
+
+    <!-- Container (Portfolio Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="portfolio">
+        <h3 class="w3-center">J. Tillman Work</h3>
+        <p class="w3-center"><em>We started building and remodeling homes in the 1980's. Over the years we have
+                constructed conventional framed homes, timber frame homes and hand crafted log homes. We provide free
+                estimates for people interested in improving their environment.<br> </em></p><br>
+
+        <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+
+        <div class="w3-container w3-center">
+        </div>
+        <div class="w3-row-padding">
+
+            <div class="w3-third">
+                <div class="w3-card-4">
+                    <img src="./assets/images/port1.PNG" alt="Keith & Karen Log Home" style="width:100%" ; height="75%"
+                        onclick="onClick(this)" class="w3-hover-opacity">
+                    <h4>Keith & Karen Log Home</h4>
+                    <p>2006</p>
+                    <ul>
+                        <li>6000+ square feet</li>
+                        <li>Radiant Floors</li>
+                        <li>Outside Fireplace</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w3-third">
+                <div class="w3-card-4">
+                    <img src="./assets/images/port1.PNG" alt="Jeff & Nancy's Residence" style="width:100%" ;
+                        height="70%" onclick="onClick(this)" class="w3-hover-opacity">
+                    <h4>Jeff & Nancy's Residence</h4>
+                    <p>2000</p>
+                    <ul>
+                        <li>Log Structural Stairs & Loft</li>
+                        <li>Recycled Materials</li>
+                        <li>Two Fire Places</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w3-third">
+                <div class="w3-card-4">
+                    <img src="./assets/images/port1.PNG" alt="Keith & Karen Log Home" style="width:100%"
+                        onclick="onClick(this)" class="w3-hover-opacity">
+                    <h4>Bill & Barb's Genesee Home</h4>
+                    <p>1990</p>
+                    <ul>
+                        <li>Built-in Cabinets</li>
+                        <li>Slate-covered Heated Decks</li>
+                        <li>7.5 Car Garage</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w3-third">
+                <div class="w3-card-4">
+                    <img src="./assets/images/port4.PNG" alt="Keith & Karen Log Home" style="width:100%"
+                        onclick="onClick(this)" class="w3-hover-opacity">
+                    <h4>Deb & Bob's Mountain Home</h4>
+                    <p>2007</p>
+                    <ul>
+                        <li>Slate Roofing</li>
+                        <li>Timber and Cedar Siding</li>
+                        <li>Mesquite Countertops</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w3-third">
+                <div class="w3-card-4">
+                    <img src="./assets/images/port4.PNG" alt="Keith & Karen Log Home" style="width:100%"
+                        onclick="onClick(this)" class="w3-hover-opacity">
+                    <h4>Ute Way</h4>
+                    <p>2001</p>
+                    <ul>
+                        <li>Concrete Countertops</li>
+                        <li>Metal Roof</li>
+                        <li>Entertainment Room</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w3-third">
+                <div class="w3-card-4">
+                    <img src="./assets/images/port4.png" alt="Keith & Karen Log Home" style="width:100%"
+                        onclick="onClick(this)" class="w3-hover-opacity">
+                    <h4>Johnson Auto Plaza</h4>
+                    <p>2011</p>
+                    <ul>
+                        <li>Demolition</li>
+                        <li>New Paint</li>
+                        <li>New Drop Ceiling</li>
+                    </ul>
+                </div>
+            </div>
+            <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+        </div>
+    </div>
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+        <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i
+                class="fa fa-remove"></i></span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+            <img id="img01" class="w3-image">
+            <p id="caption" class="w3-opacity w3-large"></p>
+        </div>
+    </div>
+    <!-- Third Parallax Image with Portfolio Text -->
+    <div class="bgimg-3 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide">CONTACT US</span>
+        </div>
+    </div>
+    <!-- Container (Contact Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="contact">
+        <h3 class="w3-center">Let's Talk!</h3>
+
+        <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="300" height="300" id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=12318%20county%20road%20182%20bullard%20tx&t=&z=11&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                    href="https://www.whatismyip-address.com"></a></div>
+            <style>
+                .mapouter {
+                    position: relative;
+                    text-align: right;
+                    height: 300px;
+                    width: 300px;
+                }
+
+                .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 300px;
+                    width: 300px;
+                }
+            </style>
+        </div>
+
+        <div class="w3-col m8 w3-panel">
+            <div class="w3-large w3-margin-bottom">
+                <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Tyler -
+                Bullard, TX
+            </div>
+            <p>Tell us a little about your thoughts <i class="fa fa-comments"></i> :</p>
+            <form action="/action_page.php" target="_blank">
+                <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                    <div class="w3-half">
+                        <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                    </div>
+                    <div class="w3-half">
+                        <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                    </div>
+                </div>
+                <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+                <button class="w3-button w3-black w3-right w3-section" type="submit">
+                    <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                </button>
+            </form>
+        </div>
+    </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        <div class="w3-xlarge w3-section">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+    </footer>
+
+    <script>
+        // Modal Image Gallery
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "block";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+        }
+
+        // Change style of navbar on scroll
+        window.onscroll = function () { myFunction() };
+        function myFunction() {
+            var navbar = document.getElementById("myNavbar");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+            } else {
+                navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+            }
+        }
+
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function toggleFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+
+
+    </script>
+
+</body>
+
+</html>
