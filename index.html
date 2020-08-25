@@ -222,29 +222,9 @@
     </div>
     <!-- Container (Contact Section) -->
     <div class="w3-content w3-container w3-padding-64" id="contact">
-        <h3 class="w3-center">Let's Talk!</h3>
+        <h3 class="w3-center"></h3>
 
-        <div class="mapouter">
-            <div class="gmap_canvas"><iframe width="100%" height="600" id="gmap_canvas"
-                    src="https://maps.google.com/maps?q=12318%20county%20road%20182%20bullard%20tx&t=&z=11&ie=UTF8&iwloc=&output=embed"
-                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-                    href="https://www.whatismyip-address.com"></a></div>
-            <style>
-                .mapouter {
-                    position: relative;
-                    text-align: center;
-                    height: 600px;
-                    width: 600px;
-                }
-
-                .gmap_canvas {
-                    overflow: hidden;
-                    background: none !important;
-                    height: 600px;
-                    width: 600px;
-                }
-            </style>
-        </div>
+    
 
         <div class="w3-col m8 w3-panel">
             <div class="w3-large w3-margin-bottom">
@@ -335,7 +315,10 @@
 
             </form>
         </div>
-    </div>
+
+         
+        </div>
+    
 
 
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
@@ -351,7 +334,28 @@
 
 
     <!-- Footer -->
-    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+    <footer class="w3-center w3-black w3-padding-64">
+        <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="100%" height="600" id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=12318%20county%20road%20182%20bullard%20tx&t=&z=11&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                    href="https://www.whatismyip-address.com"></a></div>
+            <style>
+                .mapouter {
+                    position: relative;
+                    text-align: center;
+                    height: 600px;
+                    width: 100%;
+                }
+
+                .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 600px;
+                    width: 100%;
+                }
+            </style>
+        </div>
         <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
         <div class="w3-xlarge w3-section">
             <i class="fa fa-facebook-official w3-hover-opacity"></i>
