@@ -1,0 +1,40 @@
+.marketing-site-hero {
+    background: url("../images/port.jpg") top right no-repeat;
+    height: 65vh;
+    background-size: cover;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+@media screen and (min-width: 40em) {
+    .marketing-site-hero {
+      background-position: center center;
+    }
+  }
+
+  #titleMP {
+      font-size: xx-large;
+  }
+  
+  .lead {
+    padding: 2% 10% 2% 10%;
+    text-align: center;
+    background-color: white;
+    opacity: 0.9;
+    color: black;
+  }
+  
+  .marketing-site-hero-content h1 {
+    font-size: 50px;
+  }
+  
+  @media screen and (min-width: 40em) {
+    .marketing-site-hero-content {
+      padding-left: 50%;
+    }
+  }
+  
